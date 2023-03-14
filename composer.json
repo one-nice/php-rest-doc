@@ -1,0 +1,22 @@
+{
+  "name": "one-nice/php-rest-docs",
+  "license": "MIT",
+  "description": "Generate Open API documentation",
+  "keywords": [
+    "API",
+    "documentation"
+  ],
+  "authors": [
+    {
+      "name": "Nice One"
+    }
+  ],
+  "require": {
+    "php": ">=8.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "NiceOne\\RestDocs\\": "src/"
+    }
+  }
+}
